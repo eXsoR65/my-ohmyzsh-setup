@@ -6,13 +6,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```
 
 ## Using my Customized Theme that inclused hostname in the path. 
-My custumized robbyrussell.zsh-theme to add hostname in the prompt. The orginal can by found here: https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme
+I custumized robbyrussell.zsh-theme to add hostname in the prompt. The orginal can by found here: https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme
 
 ```
  curl -o $ZSH_CUSTOM/themes/mytheme.zsh-theme-test https://raw.githubusercontent.com/eXsoR65/my-ohmyzsh-customizationing/main/mytheme.zsh-theme
 ```
 
-- Modify ZSH_THEME="robbyrussell" with ZSH_THEME="mytheme"
+- Modify ZSH_THEME="robbyrussell" to ZSH_THEME="mytheme"
 
 ## Enabling Plugins (zsh-autosuggestions & zsh-syntax-highlighting)
  - Download zsh-autosuggestions by
