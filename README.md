@@ -12,7 +12,8 @@ Download mytheme by
 
 `curl -o $ZSH_CUSTOM/themes/mytheme.zsh-theme-test https://raw.githubusercontent.com/eXsoR65/my-ohmyzsh-customizationing/main/mytheme.zsh-theme`
 
-- Modify ZSH_THEME="robbyrussell" to ZSH_THEME="mytheme"
+- `nano ~/.zshrc` and find ZSH_THEME="robbyrussell"
+-  Change it to ZSH_THEME="mytheme"
 
 ## Enabling Plugins (zsh-autosuggestions & zsh-syntax-highlighting)
  - Download zsh-autosuggestions by
