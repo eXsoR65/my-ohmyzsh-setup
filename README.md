@@ -1,19 +1,19 @@
-# My OhMyZsh customizationing
+# My OhMyZsh customization
 
 ## Install with curl
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-## Using my Customized Theme that inclused hostname in the path. 
-I custumized robbyrussell.zsh-theme to add hostname in the prompt. The orginal can by found here: https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme
+## Using my Customized Theme that included hostname in the path. 
+I customized robbyrussell.zsh-theme to add hostname in the prompt. The ordinal can by found here: https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme
 
-Download mytheme by
+Download xtheme by
 
-`curl -o $ZSH_CUSTOM/themes/mytheme.zsh-theme https://raw.githubusercontent.com/eXsoR65/my-ohmyzsh-customizationing/main/mytheme.zsh-theme`
+`curl -o $ZSH_CUSTOM/themes/xtheme.zsh-theme https://raw.githubusercontent.com/eXsoR65/my-ohmyzsh-customizationing/main/xtheme.zsh-theme`
 
 - `nano ~/.zshrc` and find ZSH_THEME="robbyrussell"
--  Change it to ZSH_THEME="mytheme"
+-  Change it to ZSH_THEME="xtheme"
 
 ## Enabling Plugins (zsh-autosuggestions & zsh-syntax-highlighting)
  - Download zsh-autosuggestions by
