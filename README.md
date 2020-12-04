@@ -5,8 +5,7 @@
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-Note: You need to have zsh install to install Oh My Zsh.
-this can by done running Example: `apt install zsh`
+Note: You need to have zsh install before installing Oh My Zsh. This can by done running Example: `apt install zsh`
 
 ## Using my Customized Theme that included hostname in the path. 
 
