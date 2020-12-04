@@ -7,7 +7,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```
 Note: You need to have zsh install before installing Oh My Zsh. This can by done running Example: `apt install zsh`
 
-## Using my Customized Theme that included hostname in the path. 
+## Using my customized theme - xtheme. 
 
 I customized robbyrussell.zsh-theme to add hostname in the prompt. The ordinal can by found here: https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme
 
