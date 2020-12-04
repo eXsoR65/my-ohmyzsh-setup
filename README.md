@@ -13,7 +13,7 @@ I customized robbyrussell.zsh-theme to add hostname in the prompt. The ordinal c
 
 ### Download xtheme by
 
-`curl -o $ZSH_CUSTOM/themes/xtheme.zsh-theme https://raw.githubusercontent.com/eXsoR65/my-ohmyzsh-customizationing/main/xtheme.zsh-theme`
+`curl -o $ZSH_CUSTOM/themes/xtheme.zsh-theme https://raw.githubusercontent.com/eXsoR65/my-ohmyzsh-setup/main/xtheme.zsh-theme`
 
 - `nano ~/.zshrc` and find ZSH_THEME="robbyrussell"
 -  Change it to ZSH_THEME="xtheme"
