@@ -10,7 +10,7 @@ I custumized robbyrussell.zsh-theme to add hostname in the prompt. The orginal c
 
 Download mytheme by
 
-`curl -o $ZSH_CUSTOM/themes/mytheme.zsh-theme-test https://raw.githubusercontent.com/eXsoR65/my-ohmyzsh-customizationing/main/mytheme.zsh-theme`
+`curl -o $ZSH_CUSTOM/themes/mytheme.zsh-theme https://raw.githubusercontent.com/eXsoR65/my-ohmyzsh-customizationing/main/mytheme.zsh-theme`
 
 - `nano ~/.zshrc` and find ZSH_THEME="robbyrussell"
 -  Change it to ZSH_THEME="mytheme"
