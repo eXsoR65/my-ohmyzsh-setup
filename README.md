@@ -1,5 +1,5 @@
 
-# My OhMyZsh customization
+# My OhMyZsh Setup
 
 ## Install Oh My Zsh with curl
 ```
