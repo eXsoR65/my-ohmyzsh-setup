@@ -24,13 +24,11 @@ Download mytheme by
  
  `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
 
- - `nano ~/.zshrc` find `plugins=(git)`
+ - Modify you .zshrc file to add the plugins emaple: `nano ~/.zshrc`
  
- - Append `zsh-autosuggestions & zsh-syntax-highlighting` to  `plugins()` like this 
+ - Append `zsh-autosuggestions & zsh-syntax-highlighting` to  plugins() like this `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
  
- `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
- 
- - `source ~/.zshrc` to reload your .zshrc to apply changes. 
+ - Reload your .zshrc to apply changes with `source ~/.zshrc`.
 
  ### Ref
  - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
