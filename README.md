@@ -8,6 +8,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ## Using my Customized Theme that inclused hostname in the path. 
 I custumized robbyrussell.zsh-theme to add hostname in the prompt. The orginal can by found here: https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme
 
+Download mytheme by
 ```
  curl -o $ZSH_CUSTOM/themes/mytheme.zsh-theme-test https://raw.githubusercontent.com/eXsoR65/my-ohmyzsh-customizationing/main/mytheme.zsh-theme
 ```
