@@ -1,6 +1,8 @@
 
 # My OhMyZsh Setup
 
+![](ohmyzsh-setup.PNG)
+
 ## Install Oh My Zsh with curl
 
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
