@@ -2,9 +2,9 @@
 # My OhMyZsh Setup
 
 ## Install Oh My Zsh with curl
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
 Note: You need to have zsh install before installing Oh My Zsh. It can be install in most distros with there package manager Example for Ubuntu/Debian: `apt install zsh`
 
 ## Using my customized theme - xtheme. 
