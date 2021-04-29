@@ -41,8 +41,9 @@ curl -o ./MesloLGS-NF-Bold-Italic.ttf https://github.com/romkatv/powerlevel10k-m
 
 *Copy all fonts to `/usr/local/share/fonts/`*
 
-
-### (OR) you can use the simple theme I made.
+&nbsp;  
+## (OR) you can use the simple theme I made.
+&nbsp;  
 
 
 ## Using my customized theme - xtheme. 
@@ -56,7 +57,9 @@ I customized robbyrussell.zsh-theme to add hostname in the prompt. The ordinal c
 - `nano ~/.zshrc` and find ZSH_THEME="robbyrussell"
 -  Change it to ZSH_THEME="xtheme"
 
-## Enabling Plugins (zsh-autosuggestions & zsh-syntax-highlighting)
+&nbsp;  
+
+## **Plugins** I use the most (zsh-autosuggestions & zsh-syntax-highlighting)
  - Download zsh-autosuggestions by
  
  `git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions`
