@@ -44,11 +44,11 @@ curl -o ./MesloLGS-NF-Bold-Italic.ttf https://github.com/romkatv/powerlevel10k-m
 *Copy all fonts to `/usr/local/share/fonts/`*
 
 &nbsp;  
-## (OR) you can use the simple theme I made.
+### (OR) you can use the simple theme I made.
 &nbsp;  
 
 
-## Using my customized theme - xtheme. 
+### Using my customized theme - xtheme. 
 
 I customized robbyrussell.zsh-theme to add hostname in the prompt. The ordinal can by found here: https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme
 
