@@ -78,14 +78,14 @@ I customized robbyrussell.zsh-theme to add hostname in the prompt. The ordinal c
  - Reload your .zshrc to apply changes with `source ~/.zshrc`.
 
 
-### If you want other users to have ohmyzsh then just do the below.
+## If you want other users to have ohmyzsh then just do the below.
 **Make sure that zsh is already installed.**
 Then login as another user of the system:
 
 - `export ZSH=/home/username_here/.oh-my-zsh`
 - `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
- ### Ref
+ ## Ref
  - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
  - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
