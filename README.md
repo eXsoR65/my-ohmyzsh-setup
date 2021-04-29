@@ -42,7 +42,7 @@ curl -o ./MesloLGS-NF-Bold-Italic.ttf https://github.com/romkatv/powerlevel10k-m
 *Copy all fonts to `/usr/local/share/fonts/`*
 
 
-(OR) you can use the simple theme I made.
+### (OR) you can use the simple theme I made.
 
 
 ## Using my customized theme - xtheme. 
