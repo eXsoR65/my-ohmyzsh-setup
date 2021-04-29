@@ -12,7 +12,7 @@ Note: You need to have ZSH installed before installing Oh My Zsh. Have a look at
 
 ## Using a customized theme
 
-### Installed PowerLevel10k
+### PowerLevel10k - my current favorite theme to use. 
 
 [https://github.com/romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
@@ -39,7 +39,7 @@ curl -o ./MesloLGS-NF-Italic.ttf https://github.com/romkatv/powerlevel10k-media/
 curl -o ./MesloLGS-NF-Bold-Italic.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
 ```
 
-Copy all fonts to `/usr/local/share/fonts/`
+*Copy all fonts to `/usr/local/share/fonts/`*
 
 
 (OR) you can use the simple theme I made.
