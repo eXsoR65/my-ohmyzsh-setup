@@ -24,13 +24,11 @@ You can find the fonts here: [Powerlevel 10k MesloLGS Nerd Font](https://github.
 
 &nbsp;  
 
-### Download and set the powerlevel10k theme
+### Clone and set the powerlevel10k theme
 
-```bash
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-```
+`git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 
-Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc.`
+Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in your `~/.zshrc.`
 
 
 &nbsp;  
