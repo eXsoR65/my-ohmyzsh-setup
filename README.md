@@ -19,9 +19,12 @@ Note: You need to have ZSH installed before installing Oh My Zsh. Have a look at
 [https://github.com/romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 *note: that you need to install fonts for it to work correctly. You can find more instructions on the powerlevel10k GitHub*
-#### Microsoft Terminal: Open Settings [Ctrl]+[,], search for fontFace and set value to MesloLGS NF for your Linux profile (example Ubuntu).
+##### Microsoft Terminal: Open Settings [Ctrl]+[,], search for fontFace and set value to MesloLGS NF for your Linux profile (example Ubuntu).
 You can find the fonts here: [Powerlevel 10k MesloLGS Nerd Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 
+&nbsp;  
+
+### Download and set the powerlevel10k theme
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -29,10 +32,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc.`
 
-
-```
-
-*Copy all fonts to `/usr/local/share/fonts/`*
 
 &nbsp;  
 ### (OR) you can use the simple theme I made.
