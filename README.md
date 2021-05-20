@@ -19,10 +19,11 @@ Note: You need to have ZSH installed before installing Oh My Zsh. Have a look at
 [https://github.com/romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 *note: that you need to install fonts for it to work correctly. You can find more instructions on the powerlevel10k GitHub*
-##### Microsoft Terminal: Open Settings [Ctrl]+[,], search for fontFace and set value to MesloLGS NF for your Linux profile (example Ubuntu).
-You can find the fonts here: [Powerlevel 10k MesloLGS Nerd Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 
-&nbsp;  
+Microsoft Terminal: Open Settings [Ctrl]+[,] search for fontFace and set value to MesloLGS NF for your Linux profile (example Ubuntu).
+
+You can find the fonts here: [Powerlevel 10k MesloLGS Nerd Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+ 
 
 ### Clone and set the powerlevel10k theme
 
