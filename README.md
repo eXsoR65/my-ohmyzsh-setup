@@ -18,7 +18,10 @@ Note: You need to have ZSH installed before installing Oh My Zsh. Have a look at
 
 [https://github.com/romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
-*note: that you need to install fonts for it to work correctly.*
+*note: that you need to install fonts for it to work correctly. You can find more instructions on the powerlevel10k GitHub*
+#### Microsoft Terminal: Open Settings [Ctrl]+[,], search for fontFace and set value to MesloLGS NF for your Linux profile (example Ubuntu).
+You can find the fonts here: [Powerlevel 10k MesloLGS Nerd Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -26,19 +29,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc.`
 
-Recommend to install font manager to install the font system-wide. 
 
-```bash
-sudo apt install font-manager
-```
-
-Then download the font's like: 
-
-```bash
-curl -o ./MesloLGS-NF-Regular.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
-curl -o ./MesloLGS-NF-Bold.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
-curl -o ./MesloLGS-NF-Italic.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf
-curl -o ./MesloLGS-NF-Bold-Italic.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
 ```
 
 *Copy all fonts to `/usr/local/share/fonts/`*
