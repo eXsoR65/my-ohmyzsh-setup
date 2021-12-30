@@ -61,8 +61,16 @@ I customized robbyrussell.zsh-theme to add hostname in the prompt. The ordinal c
 
  - Modify you .zshrc file to add the plugins Example: `nano ~/.zshrc`
  
- - Append `zsh-autosuggestions & zsh-syntax-highlighting` to  plugins()
- Should look like this: `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
+ - Add `zsh-autosuggestions & zsh-syntax-highlighting` to  plugins()
+ 
+ Prefered format:
+ ``` text
+ plugins=(
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
+ ```
  
  - Reload your .zshrc to apply changes with `exec zsh`.
 ###### Note you shouldn't not be using `source ~/.zshrc` when using ohmyzsh, just takes longer and forces to reload everything when its not needed. 
