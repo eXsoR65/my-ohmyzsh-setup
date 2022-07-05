@@ -3,7 +3,6 @@
 
 ![](ohmyzsh-setup.PNG)
 
-&nbsp;  
 
 ## Install Oh My Zsh with curl
 
@@ -30,25 +29,6 @@ You can find the fonts here: [Powerlevel 10k MesloLGS Nerd Font](https://github.
 `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 
 Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in your `~/.zshrc.`
-
-
-&nbsp;  
-### (OR) you can use the simple theme I made.
-&nbsp;  
-
-
-### Using my customized theme - xtheme. 
-
-I customized robbyrussell.zsh-theme to add hostname in the prompt. The ordinal can by found here: https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme
-
-### Download xtheme by
-
-`curl -o $ZSH_CUSTOM/themes/xtheme.zsh-theme https://raw.githubusercontent.com/eXsoR65/my-ohmyzsh-setup/main/xtheme.zsh-theme`
-
-- `nano ~/.zshrc` and find ZSH_THEME="robbyrussell"
--  Change it to ZSH_THEME="xtheme"
-
-&nbsp;  
 
 ## **Plugins** I use the most (zsh-autosuggestions & zsh-syntax-highlighting)
  - Download zsh-autosuggestions by
