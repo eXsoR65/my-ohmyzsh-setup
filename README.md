@@ -72,7 +72,19 @@ I customized robbyrussell.zsh-theme to add hostname in the prompt. The ordinal c
 )
  ```
  
- - Reload your .zshrc to apply changes with `exec zsh`.
+### Shell Parameter Highlighting (requires zsh-syntax-highlighting plugin) 
+Special Thanks to user **titus#6602** from the Oh-My-Zsh discord for sharing this awesome customization.
+
+```bash
+export ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets regexp)
+typeset -A ZSH_HIGHLIGHT_REGEXP
+ZSH_HIGHLIGHT_REGEXP+=(' -{1,2}[a-zA-Z0-9_-]*' fg=008)
+```
+Example: It will highlight the parameters like -- or - in grey lke you see below. 
+![](parameter-highlighting.png)
+
+
+### Reload your .zshrc to apply changes with `exec zsh`.
 ###### Note you shouldn't not be using `source ~/.zshrc` when using ohmyzsh, just takes longer and forces to reload everything when its not needed. 
 
 
